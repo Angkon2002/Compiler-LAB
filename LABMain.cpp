@@ -3,11 +3,9 @@ using namespace std;
 
 int main()
 {
-    // It's better practice to declare variables
-    // inside the function where they are used.
+    
     int num1 = 10; 
 
-    // Check if the remainder of num1 / 2 is 0
     if (num1 % 2 == 0) 
     {
         cout << "The number is even";
@@ -56,7 +54,7 @@ using namespace std;
 int main()
 {
     int sum1 = 200 + 50;
-    int sum2 = sum1 + 250;//sum1=250
+    int sum2 = sum1 + 250;
 
     cout << sum1 << endl;
     cout << sum2 << endl;
